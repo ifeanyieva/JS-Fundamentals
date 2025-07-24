@@ -12,8 +12,8 @@ console.log('Argument found')
 }
 
 
-const man = [0, 1, 2, 4,5]
-if (man.length > 3){
+const man = ['']
+if (man.includes('')){
 console.log('no argument found') 
 }
 
