@@ -1,3 +1,3 @@
-const sent = 'Obi is a man'
+const sent = 'Python is fun'
 
 console.log(sent);
