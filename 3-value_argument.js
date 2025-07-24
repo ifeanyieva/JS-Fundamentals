@@ -1,3 +1,3 @@
-const names = ['obi', 'ada']
+const names = ['obi','HBTN', 'ada']
 
-console.log(names[0]);
+console.log(names[1]);
