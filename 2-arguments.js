@@ -1,4 +1,4 @@
-const names = ['no argument','Best Argument found','Best School Argument found']
+const names = ['no argument','Argument found','Arguments found']
 
 console.log(names[0]);
 
