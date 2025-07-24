@@ -1,4 +1,4 @@
-const names = ['no argument', 'mid-arguments','Arguments found']
+const names = ('no argument', 'mid-arguments','Arguments found')
 
 
 if (names.length=3){
@@ -12,7 +12,7 @@ console.log('Argument found')
 }
 
 
-const man = ['']
+const man = ("")
 if (man.includes('')){
 console.log('no argument found') 
 }
