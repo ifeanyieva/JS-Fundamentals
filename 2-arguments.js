@@ -1,14 +1,22 @@
 const names = ['no argument', 'mid-arguments','Arguments found']
 
-console.log(names[2])
 
-const names01 = ['Argument found']
+if (names.length=3){
+console.log('Arguments found') 
+}
 
-console.log(names01[0]);
+const answer = 2
 
-const names02 = ['no argument','Argument found','Arguments found']
+if (answer.length = 1){
+console.log('Argument found') 
+}
 
-console.log(names02[0]);
+
+const man = [0, 1, 2, 4,5]
+if (man.length > 3){
+console.log('no argument found') 
+}
+
 
 
 
