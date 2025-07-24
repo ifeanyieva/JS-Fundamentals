@@ -1,4 +1,4 @@
-const names = ['no argument','Arguments found','Argument found']
+const names = ['no argument','Argument found','Arguments found']
 
 console.log(names[0]);
 
