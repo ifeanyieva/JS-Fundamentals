@@ -6,6 +6,6 @@ const myTon = "Python is cool"
 
 console.log(myTon);
 
-const myVar = "JavaScript is amazing"
+
 
 console.log(myVar);
