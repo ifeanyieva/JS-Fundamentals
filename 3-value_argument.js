@@ -1,8 +1,9 @@
-const names = ['obi','HBTN', 'ada']
+const firstArgument = process.argv.length[2]
 
-console.log(names[1]);
 
-const noter = ['','@']
-if (noter.includes('@')){
-console.log('No argument') 
+if (firstArgument=== undefined){
+console.log('No argument'); 
+
+}else{
+    console.log("firstArgument");
 }
