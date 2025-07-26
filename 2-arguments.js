@@ -1,21 +1,15 @@
-const names = ('no argument', 'mid-arguments','Arguments found')
+const numberOfArguments = (process.argv.length - 2)
 
 
-if (names.length=3){
-console.log('Arguments found') 
+if (numberOfArguments===0){
+console.log('No argument'); 
+}else if (numberOfArguments === 1){
+    console.log('Argument found');
+}else{
+    console.log("Arguments found");
 }
 
-const answer = 2
 
-if (answer.length = 1){
-console.log('Argument found') 
-}
-
-
-const man = ("")
-if (man.includes('')){
-console.log('no argument found') 
-}
 
 
 
