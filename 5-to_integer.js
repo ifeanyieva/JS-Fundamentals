@@ -1,3 +1,3 @@
-const seat = (1);
+const seat = (89);
 
 console.log(`my number: ${seat}`);
