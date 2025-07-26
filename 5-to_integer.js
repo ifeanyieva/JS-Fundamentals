@@ -1,3 +1,3 @@
 const seat = (89);
 
-console.log(`my number: ${seat}`);
+console.log(`My number: ${seat}`);
