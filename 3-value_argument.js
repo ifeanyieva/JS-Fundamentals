@@ -5,5 +5,5 @@ if (firstArgument=== undefined){
 console.log('No argument'); 
 
 }else{
-    console.log("firstArgument");
+    console.log("HBTN");
 }
