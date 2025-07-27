@@ -1,7 +1,11 @@
-const sent = 'Python is fun'
+const got = process.argv.slice(2);
 
-console.log(sent);
+firstArg = got[0];
+secondArg = got[1];
 
-const wrds = 'HBTN'
+const value = firstArg + " is " + secondArg;
 
-console.log(wrds);
+console.log(value);
+
+
+
