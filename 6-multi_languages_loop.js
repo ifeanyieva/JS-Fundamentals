@@ -1,6 +1,9 @@
-const names = process.argv.slice(2);
+const messages = [
+  "C is fun",
+  "Python is cool",
+  "JavaScript is amazing"
+];
 
-
-for(let i = 0; i < names.length; i++) {
-console.log(names[i]);
+for (let i = 0; i < messages.length; i++) {
+  console.log(messages[i]);
 }
