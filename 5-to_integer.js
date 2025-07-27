@@ -1,4 +1,14 @@
-const seat = (89);
+const got = process.argv.slice(2);
 
-console.log(`My number: ${seat}`);
+firstArg = got[0];
+secondArg = got[1];
+
+const number = Number(firstArg);
+
+if (Number(firstArg)){
+    console.log(`My number: ${number}`);
+} else {
+    console.log(`Not a number`);
+}
+
 
